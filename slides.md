@@ -58,3 +58,7 @@ src: ./slides/about-me.md
 ---
 src: ./slides/coding-vs-talking.md
 ---
+
+---
+src: ./slides/thanks.md
+---
