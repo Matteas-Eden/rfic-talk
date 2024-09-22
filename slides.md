@@ -54,3 +54,7 @@ themeConfig:
 ---
 src: ./slides/about-me.md
 ---
+
+---
+src: ./slides/coding-vs-talking.md
+---
