@@ -3,8 +3,7 @@ layout: about-me
 
 helloMsg: About Me
 name: Matt Eden
-#imageSrc: https://cover.sli.dev
-imageSrc: https://matteas.nz/static/matt-51288e40173c58e45814c4609b40b6da.jpg
+imageSrc: https://www.kindpng.com/picc/m/722-7221920_placeholder-profile-image-placeholder-png-transparent-png.png
 #job: Software Team Lead @ Serko
 job: Team Lead @ Serko Limited
 improv: Improviser @ Covert Theatre
