@@ -570,10 +570,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/mdi@1.1.54":
-  version "1.1.54"
-  resolved "https://registry.yarnpkg.com/@iconify-json/mdi/-/mdi-1.1.54.tgz#343477417c15fceeaf0f32012d58a4a8d9791786"
-  integrity sha512-3QAsxte90EalbN2e8J30OqSSZz9qN2x+kmykQwsPahoW2dOtSvj+BR9YdiUd9A5XKk2nuU4UH5Gj/cq6WZ6CzQ==
+"@iconify-json/mdi@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@iconify-json/mdi/-/mdi-1.2.0.tgz#264ac2ceeb6135ad5e3d8dc63562a47df13b5a4a"
+  integrity sha512-E9/3l5Syg3wfuarorFodhn4s8YorxhH3U3U20LaNBNiqw1kFNIDWhF6HymuzAD35k7RH0OBasJ+ZUyFtVVV6eg==
   dependencies:
     "@iconify/types" "*"
 
@@ -1104,11 +1104,6 @@
     codemirror-theme-vars "^0.1.2"
     prism-theme-vars "^0.2.4"
 
-"@slidev/types@0.43.3":
-  version "0.43.3"
-  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.43.3.tgz#f87d7544e79d80fa9673c7561ba0c3627ab98d53"
-  integrity sha512-P6JpiJcfzzjs/6EABaotmMCAcbNFEYmDklyehlqwUL6F4izGSuD5NNUa6dXCsW5iQ9uvsk/Sm3s4WhdpAZiJQw==
-
 "@slidev/types@0.49.29":
   version "0.49.29"
   resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.49.29.tgz#e129b1635099bc9f3cbb84ba16b255db2f546deb"
@@ -1557,7 +1552,7 @@
     "@vue/compiler-core" "3.5.7"
     "@vue/shared" "3.5.7"
 
-"@vue/compiler-sfc@3.5.7", "@vue/compiler-sfc@^3.2.20", "@vue/compiler-sfc@^3.5.3":
+"@vue/compiler-sfc@3.5.7", "@vue/compiler-sfc@^3.5.3":
   version "3.5.7"
   resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.5.7.tgz#1150c49c0e3b39d40b2cf0f7de9edfcba98fa3e9"
   integrity sha512-EjOJtCWJrC7HqoCEzOwpIYHm+JH7YmkxC1hG6VkqIukYRqj8KFUlTLK6hcT4nGgtVov2+ZfrdrRlcaqS78HnBA==
@@ -1971,7 +1966,7 @@ clone-regexp@^3.0.0:
   dependencies:
     is-regexp "^3.0.0"
 
-codemirror-theme-vars@0.1.2, codemirror-theme-vars@^0.1.1, codemirror-theme-vars@^0.1.2:
+codemirror-theme-vars@^0.1.1, codemirror-theme-vars@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/codemirror-theme-vars/-/codemirror-theme-vars-0.1.2.tgz#60db6877d16a400809e919b9bec33d72dbab1dfa"
   integrity sha512-WTau8X2q58b0SOAY9DO+iQVw8JKVEgyQIqArp2D732tcc+pobbMta3bnVMdQdmgwuvNrOFFr6HoxPRoQOgooFA==
@@ -4225,11 +4220,6 @@ prettier@^3.3.3:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.3.tgz#30c54fe0be0d8d12e6ae61dbb10109ea00d53105"
   integrity sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
 
-prism-theme-vars@0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/prism-theme-vars/-/prism-theme-vars-0.2.4.tgz#c92b8747a70ced8675538454900f88f08d053558"
-  integrity sha512-B3Pht+GCT87sZph7hMRLlCQXzCM0awW7Rhk08RavpqRW4LEQOeqN0uMG4QCWkul2tr8PB61YAOJGUrEW+1uuJA==
-
 prism-theme-vars@^0.2.4:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/prism-theme-vars/-/prism-theme-vars-0.2.5.tgz#4691660f52c2ec790187a81df7dcd22fceaef128"
@@ -4277,7 +4267,7 @@ punycode.js@^2.3.1:
   resolved "https://registry.yarnpkg.com/punycode.js/-/punycode.js-2.3.1.tgz#6b53e56ad75588234e79f4affa90972c7dd8cdb7"
   integrity sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==
 
-qrious@4.0.2, qrious@^4.0.2:
+qrious@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/qrious/-/qrious-4.0.2.tgz#09c4d4079d2b961617f62c69cff3b9bb66a39693"
   integrity sha512-xWPJIrK1zu5Ypn898fBp8RHkT/9ibquV2Kv24S/JY9VYEhMBMKur1gHVsOiNUh7PHP9uCgejjpZUHUIXXKoU/g==
@@ -4526,18 +4516,6 @@ slash@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-5.1.0.tgz#be3adddcdf09ac38eebe8dcdc7b1a57a75b095ce"
   integrity sha512-ZA6oR3T/pEyuqwMgAKT0/hAv8oAXckzbkmR0UkUosQ+Mc4RxGoJkRmwHgHufaenlyAgE1Mxgpdcrf75y6XcnDg==
-
-slidev-theme-meetup@^1.5.3:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/slidev-theme-meetup/-/slidev-theme-meetup-1.5.3.tgz#b2dfddda6fb8c8f8b1ea1fd9a01415380002b5e8"
-  integrity sha512-5W4WRCGep/Sqt1SvCIPRA6+YO3CAWpRR+dAORPVLv7gpfcjuRjEXXbUmexgqmanRI0+sdryqFBuMSPVu/dvISg==
-  dependencies:
-    "@iconify-json/mdi" "1.1.54"
-    "@slidev/types" "0.43.3"
-    codemirror-theme-vars "0.1.2"
-    prism-theme-vars "0.2.4"
-    qrious "4.0.2"
-    vite-svg-loader "4.0.0"
 
 slidev-theme-the-unnamed@^0.0.20:
   version "0.0.20"
@@ -4924,7 +4902,7 @@ unpipe@~1.0.0:
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==
 
-unplugin-icons@^0.19.2:
+unplugin-icons@^0.19.2, unplugin-icons@^0.19.3:
   version "0.19.3"
   resolved "https://registry.yarnpkg.com/unplugin-icons/-/unplugin-icons-0.19.3.tgz#07dcd77ecf973b234c76e4bc11df1380b5ac7fab"
   integrity sha512-EUegRmsAI6+rrYr0vXjFlIP+lg4fSC4zb62zAZKx8FGXlWAGgEGBCa3JDe27aRAXhistObLPbBPhwa/0jYLFkQ==
@@ -5087,14 +5065,6 @@ vite-plugin-vue-server-ref@^0.4.2:
     klona "^2.0.6"
     mlly "^1.5.0"
     ufo "^1.3.2"
-
-vite-svg-loader@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/vite-svg-loader/-/vite-svg-loader-4.0.0.tgz#1cec4337dba3c23ab13bcabb111896e251b047ac"
-  integrity sha512-0MMf1yzzSYlV4MGePsLVAOqXsbF5IVxbn4EEzqRnWxTQl8BJg/cfwIzfQNmNQxZp5XXwd4kyRKF1LytuHZTnqA==
-  dependencies:
-    "@vue/compiler-sfc" "^3.2.20"
-    svgo "^3.0.2"
 
 vite-svg-loader@^5.1.0:
   version "5.1.0"
