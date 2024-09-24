@@ -16,9 +16,6 @@ themeConfig:
   color: "#b8c0e0"
   background: "#24273a"
 
-  code-background: "#0F131E"
-  code-border: "#242d34"
-
   accents-teal: "#44FFD2"
   accents-yellow: "#FFE45E"
   accents-red: "#FE4A49"
@@ -57,6 +54,10 @@ src: ./slides/about-me.md
 
 ---
 src: ./slides/coding-vs-talking.md
+---
+
+---
+src: ./slides/definitions.md
 ---
 
 ---
