@@ -442,7 +442,8 @@
     width: -moz-fit-content;
     width: fit-content;
 
-    font-size: 2rem;
+    font-size: 2.5rem;
+    padding: 0.15em;
 
     text-align: start;
     position: relative;
@@ -457,17 +458,18 @@
       content: " ";
       display: block;
       position: absolute;
-      width: calc(110%);
-      height: calc(110%);
+      width: calc(100%);
+      height: calc(100%);
       margin-left: -0.15em;
+      margin-top: -0.15rem;
       z-index: -1;
       transform: rotate(-1deg);
     }
   }
 
   blockquote {
-    margin-top: 1rem;
-    padding: 1rem;
+    margin-top: 1rem !important;
+    padding: 0.5rem;
 
     font-style: italic;
     text-align: center;
