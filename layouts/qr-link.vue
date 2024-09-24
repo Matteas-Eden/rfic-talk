@@ -18,7 +18,7 @@ const qrcode = computed(() => {
 </script>
 
 <template>
-  <div class="slidev-layout center text-center">
+  <div class="slidev-layout qr-link text-center">
     <slot />
     <div class="container mx-auto">
       <img
