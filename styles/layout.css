@@ -479,5 +479,6 @@
     background-color: transparent !important;
 
     border-left: 2px solid;
+    border-radius: 0;
   }
 }
