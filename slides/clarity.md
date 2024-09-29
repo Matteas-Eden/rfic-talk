@@ -4,20 +4,46 @@ layout: two-cols-with-header
 
 # Clarity
 
-Let's put some sample text here.
+**_Make it unambiguously clear what you are communicating_**
 
 ::left::
 
-## Helps
+## What helps?
 
-* Point 1
-* Point 2
-* Point 3
+<v-click>
+
+> Structure
+
+Use a clear layout, so that receiving the message is easy.
+
+</v-click>
+
+<v-click>
+
+> Focus
+
+Be specific and singular, so that there is only one clear message to convey.
+
+</v-click>
 
 ::right::
 
-## Hinders
+## What hinders?
 
-* Point 1
-* Point 2
-* Point 3
+<v-click>
+
+> Noise
+
+Only include relevant information, so that nothing distracts from the intent.
+
+</v-click>
+
+
+<v-click>
+
+> Complexity
+
+Be straightforward, so that it is easy to be understood.
+
+</v-click>
+

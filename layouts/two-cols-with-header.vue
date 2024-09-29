@@ -15,13 +15,13 @@ const props = defineProps({
             <slot />
         </div>
 
-        <div class="grid grid-cols-2 px-16">
-            <div class="col-left" :class="props.class">
-                <slot name="left" />
+        <div class="grid grid-cols-2 gap-x-10 px-16">
+            <div class="col-left justify-self-center" :class="props.class">
+                <slot name="left" class="max-w-[50%]" />
             </div>
 
-            <div class="col-right justify-self-end" :class="props.class">
-                <slot name="right" />
+            <div class="col-right justify-self-center" :class="props.class">
+                <slot name="right" class="max-w-[50%]" />
             </div>
         </div>
     </div>

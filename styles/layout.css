@@ -526,4 +526,14 @@
       transform: rotate(-1deg);
     }
   }
+
+  blockquote {
+    border-color: var(--slidev-theme-accents-yellow);
+    border-left-width: 5px;
+    border-radius: 0;
+  }
+
+  blockquote > p {
+    font-size: 1.5em !important;
+  }
 }
