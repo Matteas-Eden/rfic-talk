@@ -61,6 +61,10 @@ src: ./slides/definitions.md
 ---
 
 ---
+src: ./slides/intentional-communication.md
+---
+
+---
 src: ./slides/clarity.md
 ---
 
