@@ -185,7 +185,8 @@
 .slidev-layout[layout="default"],
 .about-me,
 .qr-link,
-.definition {
+.definition,
+.two-columns-with-header {
   h1 {
     display: inline-block;
     padding: 0.25em;
@@ -480,5 +481,49 @@
 
     border-left: 2px solid;
     border-radius: 0;
+  }
+}
+
+/* Two Cols w/ Header */
+.two-columns-with-header {
+  background: var(--slidev-theme-default-background);
+  font-size: var(--slidev-theme-two-columns-font-size);
+
+  h1 {
+    color: var(--slidev-theme-default-headingColor);
+    font-size: 3rem;
+
+    &::before {
+      background: var(--slidev-theme-default-headingBg);
+    }
+  }
+
+  h2 {
+    width: -moz-fit-content;
+    width: fit-content;
+
+    font-size: 2.5rem;
+    padding: 0.15em;
+
+    text-align: start;
+    position: relative;
+    z-index: 1;
+    display: block;
+
+    color: var(--slidev-theme-center-headingColor);
+
+    &::before {
+      background: var(--slidev-theme-accents-yellow);
+      box-shadow: var(--slidev-theme-header-shadow);
+      content: " ";
+      display: block;
+      position: absolute;
+      width: calc(100%);
+      height: calc(100%);
+      margin-left: -0.15em;
+      margin-top: -0.15rem;
+      z-index: -1;
+      transform: rotate(-1deg);
+    }
   }
 }

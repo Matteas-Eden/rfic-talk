@@ -61,5 +61,9 @@ src: ./slides/definitions.md
 ---
 
 ---
+src: ./slides/clarity.md
+---
+
+---
 src: ./slides/thanks.md
 ---
