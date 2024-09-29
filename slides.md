@@ -33,7 +33,7 @@ themeConfig:
   center-headingColor: var(--slidev-theme-accents-vulcan)
   center-background: var(--slidev-theme-background)
 
-  cover-headingBg: var(--slidev-theme-accents-teal)
+  cover-headingBg: var(--slidev-theme-accents-blue)
   cover-headingColor: var(--slidev-theme-accents-vulcan)
   cover-background: var(--slidev-theme-background)
 
