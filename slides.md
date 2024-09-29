@@ -69,6 +69,10 @@ src: ./slides/clarity.md
 ---
 
 ---
+src: ./slides/honesty.md
+---
+
+---
 src: ./slides/summary.md
 ---
 
