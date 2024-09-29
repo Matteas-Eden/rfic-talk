@@ -37,7 +37,7 @@ themeConfig:
   cover-headingColor: var(--slidev-theme-accents-vulcan)
   cover-background: var(--slidev-theme-background)
 
-  section-headingBg: var(--slidev-theme-accents-lightblue)
+  section-headingBg: var(--slidev-theme-accents-blue)
   section-headingColor: var(--slidev-theme-accents-vulcan)
   section-background: var(--slidev-theme-background)
 
@@ -66,6 +66,10 @@ src: ./slides/intentional-communication.md
 
 ---
 src: ./slides/clarity.md
+---
+
+---
+src: ./slides/summary.md
 ---
 
 ---
