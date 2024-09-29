@@ -1,6 +1,4 @@
 <script setup lang="ts">
-  import { computed } from 'vue'
-  import { handleBackground } from '@slidev/client/layoutHelper.ts'
   import IconWeb from '~icons/mdi/web'
   import IconMail from '~icons/mdi/email'
   import IconPersonGroup from '~icons/mdi/person-group'
@@ -17,15 +15,15 @@
     website?: string
     email?: string
   }>()
-
-  const style = computed(() => handleBackground(props.imageSrc, false))
 </script>
 
 <template>
   <div class="slidev-layout about-me p-0">
     <div class="flex h-full items-center justify-between">
-      <div class="w-100 h-100 ml-20 flex rounded-full" :style="style">
-      </div>
+      <img class="w-100 h-100 ml-20 flex rounded-full" :src="imageSrc">
+      </img>
+      <!-- <div class="w-100 h-100 ml-20 flex rounded-full" :style="style">
+      </div> -->
       <div class="w-1/2 flex flex-col justify-between items-end px-8 py-16">
         <h1 v-if="helloMsg" class="flex">{{ helloMsg }}</h1>
 
