@@ -4,6 +4,7 @@
   import IconPersonGroup from '~icons/mdi/person-group'
   import IconTheatre from '~icons/mdi/theatre'
   import IconKarate from '~icons/mdi/karate'
+  import { resolveAssetUrl } from '@slidev/client/layoutHelper.ts'
 
   const props = defineProps<{
     imageSrc?: string
@@ -15,12 +16,15 @@
     website?: string
     email?: string
   }>()
+
+  const imageUrl = resolveAssetUrl(props.imageSrc || '')
+
 </script>
 
 <template>
   <div class="slidev-layout about-me p-0">
     <div class="flex h-full items-center justify-between">
-      <img class="w-100 h-100 ml-20 flex rounded-full" :src="imageSrc">
+      <img class="w-100 h-100 ml-20 flex rounded-full" :src="imageUrl">
       </img>
       <!-- <div class="w-100 h-100 ml-20 flex rounded-full" :style="style">
       </div> -->

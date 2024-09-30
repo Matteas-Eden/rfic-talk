@@ -3,7 +3,7 @@ layout: about-me
 
 helloMsg: About Me
 name: Matt Eden
-imageSrc: ../assets/me.png
+imageSrc: /assets/me.png
 job: Team Lead @ Serko Limited
 improv: Improviser @ Covert Theatre
 karate: Martial Artist @ UoA Goju-Ryu
