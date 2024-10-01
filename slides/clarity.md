@@ -4,7 +4,7 @@ layout: two-cols-with-header
 
 # Clarity
 
-**_Make it unambiguously clear what you are communicating_**
+**_Make it clear what you are communicating_**
 
 ::left::
 
