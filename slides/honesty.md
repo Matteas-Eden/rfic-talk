@@ -30,7 +30,7 @@ layout: two-cols-with-header
 
 ## Inwards
 
-> Being honest with you
+> Being honest with yourself
 
 </v-click>
 
