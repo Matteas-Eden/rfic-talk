@@ -11,6 +11,8 @@ transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: false
 
+favicon: 'https://matteden.nz/favicon-32x32.png'
+
 src: ./slides/intro.md
 themeConfig:
   color: "#b8c0e0"
