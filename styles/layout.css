@@ -566,3 +566,26 @@
     font-size: 1.25em !important;
   }
 }
+
+/* Footer */
+.footer {
+  width: 100%;
+  z-index: 100;
+  color: var(--slidev-theme-aboutme-color);
+  position: absolute;
+  bottom: 0;
+  font-size: 0.75em;
+  font-style: italic;
+
+  .date {
+    position: inherit;
+    bottom: 0;
+    left: 0.5em;
+  }
+
+  .name {
+    position: inherit;
+    bottom: 0;
+    right: 0.5em;
+  }
+}
